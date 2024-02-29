@@ -2,6 +2,12 @@ import restaurant from './images/restauranfood.jpg';
 import greekSalad from './images/greekSalad.jpg';
 import lemon from './images/lemon.jpg';
 import bruschetta from './images/bruschetta.jpg';
+import leonardo from './images/leonardo.jpeg';
+import brad from './images/brad.jpeg';
+import george from './images/george.jpeg';
+import margot from './images/margot.jpeg';
+import stars from './images/5stars.jpeg';
+
 function Main() {
   return (
     <>
@@ -64,26 +70,26 @@ function Main() {
         <h1>Testimonials</h1>
         <div className='cards2'>
           <div className='card2'>
-            <img></img>
-            <img></img>
+            <img src={stars} alt='stars' className='stars'></img>
+            <img src={brad} alt='brad' className='personality'></img>
             <h2></h2>
             <h3></h3>
           </div>
           <div className='card2'>
-            <img></img>
-            <img></img>
+            <img src={stars} alt='stars' className='stars'></img>
+            <img src={george} alt='george' className='personality'></img>
             <h2></h2>
             <h3></h3>
           </div>
           <div className='card2'>
-            <img></img>
-            <img></img>
+            <img src={stars} alt='stars' className='stars'></img>
+            <img src={leonardo} alt='leonardo' className='personality'></img>
             <h2></h2>
             <h3></h3>
           </div>
           <div className='card2'>
-            <img></img>
-            <img></img>
+            <img src={margot} alt='stars' className='stars'></img>
+            <img src={margot} alt='brad' className='personality'></img>
             <h2></h2>
             <h3></h3>
           </div>

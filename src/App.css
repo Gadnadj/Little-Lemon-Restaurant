@@ -333,3 +333,13 @@ li {
     margin-top: 100px;
   }
 }
+
+.card2 .personality {
+  height: 75px;
+  width: 75px;
+}
+
+.card2 .stars {
+  height: 51px;
+  width: 125px;
+}
