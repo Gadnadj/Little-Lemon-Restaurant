@@ -309,7 +309,6 @@ li {
   padding: 15px 40px;
   border: none;
   border-radius: 2em;
-  box-shadow: 3px 30px 15px rgba(0, 0, 0, 0.2);
   font-size: 12px;
   margin-left: auto;
   margin-right: auto;
@@ -336,6 +335,48 @@ li {
   }
 }
 /* --------------------------------------------------- */
+
+.testimonials {
+  background-color: #495e57;
+  padding: 20px; /* Ajout de padding pour un espacement autour du contenu */
+}
+
+.testimonials h1 {
+  color: #f4ce14;
+  font-family: 'Markazi Text', serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: space-around; /* Aligner les cartes avec un espace égal entre elles */
+  flex-wrap: wrap; /* Permettre le retour à la ligne des cartes si nécessaire */
+}
+
+.card2 {
+  width: 273px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f2efef;
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 20px; /* Espacement entre les cartes */
+}
+
+.card2-body {
+  padding: 20px; /* Ajout de padding à l'intérieur de la carte */
+  text-align: center; /* Alignement du contenu au centre */
+}
+
+.card2 h2 {
+  margin-top: 10px; /* Espacement entre le titre et le reste du contenu */
+}
+
+.card2 h3 {
+  margin-top: 10px; /* Espacement entre le texte et le reste du contenu */
+}
+
 .card2 .personality {
   height: 75px;
   width: 75px;
