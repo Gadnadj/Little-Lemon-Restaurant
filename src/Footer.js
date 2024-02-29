@@ -1,9 +1,9 @@
 function Footer() {
   return (
     <footer>
-      <ul id='f-navi'>
+      <ul className='f-navi'>
         <span>Navigation</span>
-        <li id='f-nav'>
+        <li className='f-nav'>
           <a href='/'>Home</a>
           <a href='/about'>About</a>
           <a href='/menu'>Menu</a>
@@ -12,14 +12,14 @@ function Footer() {
           <a href='/login'>Login</a>
         </li>
       </ul>
-      <ul id='f-navi'>
+      <ul className='f-navi contact'>
         <span>Contact</span>
         <li>Address</li>
         <li>Phone Number</li>
         <li>Email</li>
       </ul>
-      <ul id='f-navi'>
-        <span>Social Media Links</span>Social Media Links
+      <ul className='f-navi social'>
+        <span>Social Media Links</span>
         <li>Address</li>
         <li>Phone Number</li>
         <li>Email</li>
