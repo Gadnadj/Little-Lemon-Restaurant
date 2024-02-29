@@ -1,5 +1,3 @@
-import littleimage from './images/Little-Lemon.png';
-
 function Footer() {
   return (
     <footer>
