@@ -59,6 +59,36 @@ function Main() {
           </div>
         </div>
       </div>
+
+      <div className='testimonials'>
+        <h1>Testimonials</h1>
+        <div className='cards2'>
+          <div className='card2'>
+            <img></img>
+            <img></img>
+            <h2></h2>
+            <h3></h3>
+          </div>
+          <div className='card2'>
+            <img></img>
+            <img></img>
+            <h2></h2>
+            <h3></h3>
+          </div>
+          <div className='card2'>
+            <img></img>
+            <img></img>
+            <h2></h2>
+            <h3></h3>
+          </div>
+          <div className='card2'>
+            <img></img>
+            <img></img>
+            <h2></h2>
+            <h3></h3>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
