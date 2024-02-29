@@ -3,8 +3,6 @@ import littleimage from './images/Little-Lemon.png';
 function Footer() {
   return (
     <footer>
-      <div className='container'>
-        <img src={littleimage} alt='restaurant' id='footer-img'></img>
         <ul className='f-navi'>
           <span>Navigation</span>
           <li className='f-nav'>
@@ -28,7 +26,6 @@ function Footer() {
           <li>Phone Number</li>
           <li>Email</li>
         </ul>
-      </div>
     </footer>
   );
 }

@@ -498,16 +498,11 @@ footer {
 }
 .f-navi {
   list-style-type: none;
-  padding: 150px;
+  padding: 0;
 }
 
 .f-navi li {
-  margin-bottom: -50px;
-}
-
-.f-navii li {
-  margin-bottom: -50px;
-
+  margin-bottom: 10px;
 }
 
 .f-navi span {
@@ -530,56 +525,15 @@ li {
   margin: 0px;
 }
 
-.social span {
-  white-space: nowrap;
-}
-
-#footer-img {
-  width: 700px;
-  height: 200px;
-  margin-bottom: 20px;
-  padding-right: 550px;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  padding: 0 0;
-  
-}
-
 @media screen and (max-width: 768px) {
   footer {
     flex-direction: column;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-    margin-right: 0;
-    margin-left: 0;
-    
-  }
-
-  #footer-img {
-    width: 100%;
-    height: auto;
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 0;
-    padding-left: 0;
-
-    align-items: center;
-    justify-content: center;
-    margin-bottom: -70px;
+    align-items: stretch;
   }
 
   .f-navi,
   .f-navii,
   .f-naviii {
-    margin-bottom: -200px; /* Ajuster la marge entre les sections */
-    margin-right: 0;
-    margin-left: 0;
+    margin-bottom: 20px;
   }
-
 }
