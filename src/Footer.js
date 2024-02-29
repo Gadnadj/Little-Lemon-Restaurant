@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <ul id='f-navi'>
-        Navigation
+        <span>Navigation</span>
         <li id='f-nav'>
           <a href='/'>Home</a>
           <a href='/about'>About</a>
@@ -13,13 +13,13 @@ function Footer() {
         </li>
       </ul>
       <ul id='f-navi'>
-        Contact
+        <span>Contact</span>
         <li>Address</li>
         <li>Phone Number</li>
         <li>Email</li>
       </ul>
       <ul id='f-navi'>
-        Social Media Links
+        <span>Social Media Links</span>Social Media Links
         <li>Address</li>
         <li>Phone Number</li>
         <li>Email</li>
