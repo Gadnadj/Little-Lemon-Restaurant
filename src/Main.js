@@ -19,6 +19,7 @@ function Main() {
         <h1>Specials</h1>
         <button id='online'>Online Menu</button>
       </div>
+
       <div className='cards'>
         <div className='card'>
           <img src={greekSalad} alt='greek'></img>
@@ -26,35 +27,35 @@ function Main() {
             <div className='card-title'>Greek Salad</div>
             <div className='card-text'>
               Freshly chopped tomatoes, cucumbers, onions, and peppers, topped
-              with feta cheese and Kalamata olives.
+              with feta cheese and Kalamata .
             </div>
-            <button>Order Delivery</button>
+            <button className='order'>Order Delivery</button>
           </div>
         </div>
 
         <div className='card'>
           <img src={bruschetta} alt='greek'></img>
           <div className='card-body'>
-            <div className='card-title'>Greek Salad</div>
+            <div className='card-title'>Bruschetta</div>
             <div className='card-text'>
               Our Bruschetta is made from homemade grilled bread that has been
               smeared with garlic and seasoned with salt and olive oil. Topped
               with fresh vegetables.
             </div>
-            <button>Order Delivery</button>
+            <button className='order'>Order Delivery</button>
           </div>
         </div>
 
         <div className='card'>
           <img src={lemon} alt='greek'></img>
           <div className='card-body'>
-            <div className='card-title'>Greek Salad</div>
+            <div className='card-title'>Lemon Cake</div>
             <div className='card-text'>
               This comes straight from grandma’s recipe book, every last
               ingredient has been sourced and is as authentic as can be
               imagined.
             </div>
-            <button>Order Delivery</button>
+            <button className='order'>Order Delivery</button>
           </div>
         </div>
       </div>

@@ -257,14 +257,22 @@ li {
 }
 
 .card {
-  width: 273px; /* Ajustez la largeur des cartes selon vos besoins */
-  border: 1px solid #ddd; /* Ajoutez une bordure */
-  border-radius: 8px; /* Ajoutez une bordure arrondie */
+  width: 273px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   box-shadow: 5px 10px 20px #ccc;
   background-color: #f2efef;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Karla', sans-serif;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuer l'espace vertical entre les éléments */
+  align-items: flex-start; /* Aligner les éléments sur la partie supérieure du conteneur */
+  height: 350px;
 }
 
 .card-title {
@@ -275,24 +283,53 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-
 }
 
 .card-text {
   display: block;
   font-family: 'Karla', sans-serif;
-  margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-style: italic;
   font-size: 16px;
   padding: 1em;
-
 }
 
 .cards .card img {
   width: 273px;
   height: 219px;
   border-radius: 10px;
+}
+
+.order {
+  background-color: #f4ce14;
+  color: black;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 2em;
+  box-shadow: 3px 30px 15px rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1301px) {
+  .specials {
+    padding: 0 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .specials button {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-top: 100px;
+  }
 }
