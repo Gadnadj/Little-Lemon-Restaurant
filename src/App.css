@@ -53,72 +53,6 @@ nav img {
   }
 }
 
-/* Footer Section */
-footer {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1440px;
-  height: 417px;
-}
-
-.f-navi,
-.f-navii,
-.f-naviii {
-  flex: 1;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.f-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.f-navi {
-  list-style-type: none;
-  padding: 0;
-}
-
-.f-navi li {
-  margin-bottom: 10px;
-}
-
-.f-navi span {
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.f-navi a,
-li {
-  text-decoration: none;
-  color: black;
-}
-
-.contact li {
-  margin: 0px;
-}
-
-.social li {
-  margin: 0px;
-}
-
-@media screen and (max-width: 768px) {
-  footer {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .f-navi,
-  .f-navii,
-  .f-naviii {
-    margin-bottom: 20px;
-  }
-}
-
 /* Main */
 .presentation {
   height: 420px;
@@ -183,6 +117,11 @@ li {
 
 @media screen and (max-width: 1301px) {
   @media screen and (max-width: 1301px) {
+.presentation {
+  padding-left: 0;
+  padding-right: 0;
+}
+
     .presentation img {
       display: none;
     }
@@ -191,6 +130,10 @@ li {
       margin-left: 50px;
       margin-left: auto;
       margin-right: auto; /* Centre le texte */
+      justify-content: center;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 0;
     }
 
     .presentation h2 {
@@ -198,6 +141,10 @@ li {
       margin-left: 50px;
       margin-left: auto;
       margin-right: auto;
+      justify-content: center;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 0;
     }
 
     .presentation h3 {
@@ -206,6 +153,10 @@ li {
       width: 300px;
       margin-left: auto;
       margin-right: auto;
+      justify-content: center;
+      text-align: center;
+      padding-right: 0;
+      padding-left: 0;
     }
 
     #reserve {
@@ -290,9 +241,9 @@ li {
 .card-text {
   display: block;
   font-family: 'Karla', sans-serif;
+  font-weight: normal;
   margin-block-end: 1em;
   margin-inline-end: 0px;
-  font-style: italic;
   font-size: 16px;
   padding: 1em;
 }
@@ -359,9 +310,11 @@ li {
   width: 273px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #f2efef;
+  background-color: #ffffff;
   font-family: 'Karla', sans-serif;
   margin-bottom: 20px; /* Espacement entre les cartes */
+  box-shadow: #f4ce14 0px 3px 5px 0px;
+  border-radius: 10px;
 }
 
 .card2-body {
@@ -371,18 +324,262 @@ li {
 
 .card2 h2 {
   margin-top: 10px; /* Espacement entre le titre et le reste du contenu */
+  font-family: 'Markazi Text', serif;
+  font-weight: normal;
 }
 
 .card2 h3 {
   margin-top: 10px; /* Espacement entre le texte et le reste du contenu */
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
 }
 
 .card2 .personality {
   height: 75px;
   width: 75px;
+  border-radius: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card2 .stars {
-  height: 51px;
+  height: 70px;
   width: 125px;
+}
+
+/* --------------------------------------------------- */
+
+#mario {
+  height: 386px;
+  width: 603px;
+  margin-top: 50px;
+  position: relative; /* Ajout de position relative */
+  z-index: 2;
+  margin-right: 750px;
+  margin-top: 220px;
+  margin-left: -350px;
+  box-shadow: #495e57 0px 0px 20px 10px;
+  border-radius: 10px;
+}
+
+#restaurant {
+  height: 386px;
+  width: 603px;
+  position: absolute; /* Changement de position en absolu */
+  top: 0; /* Ajout de top */
+  left: 0; /* Ajout de left */
+  z-index: 1;
+  box-shadow: #495e57 0px 0px 20px 10px;
+  border-radius: 10px;
+}
+
+.descri {
+  display: flex;
+  padding-bottom: 100px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.left-side {
+  padding: 5em;
+  position: relative;
+  padding-right: 400px;
+}
+
+.left-side h1 {
+  color: black;
+  font-family: 'Markazi Text', serif;
+  font-size: 60px;
+}
+
+.left-side h2 {
+  color: black;
+  font-family: 'Markazi Text', serif;
+  font-size: 30px;
+  margin-top: -20px;
+}
+
+.left-side p {
+  color: black;
+  font-family: 'Karla', serif;
+  font-size: 22px;
+  width: auto;
+}
+
+.right-side {
+  position: relative;
+  width: auto;
+  padding-left: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .descri {
+    flex-direction: column; /* Disposer les éléments en colonne */
+    align-items: center; /* Centrer les éléments horizontalement */
+  }
+
+  #mario {
+    width: 100%; /* Ajuster la largeur à 100% de l'écran */
+    margin: 20px auto; /* Centre l'image horizontalement */
+  }
+
+  #restaurant {
+    width: 100%; /* Ajuster la largeur à 100% de l'écran */
+    position: relative; /* Changer la position à relative */
+    top: auto;
+    left: auto;
+    margin: 20px auto; /* Centre l'image horizontalement */
+  }
+
+  .left-side {
+    padding-right: 0; /* Supprimer le padding à droite */
+    padding-left: 0; /* Supprimer le padding à gauche */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .right-side {
+    padding-left: 0; /* Supprimer le padding à gauche */
+    padding-right: 0; /* Supprimer le padding à droite */
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .left-side h1,
+  h2,
+  p {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+/* --------------------------------------------------- */
+
+.separation {
+  background-color: #000000;
+  height: 5px;
+  width: 100%;
+}
+
+.separation2 {
+  background-color: #495e57;
+  height: 5px;
+  width: 100%;
+}
+
+/* --------------------------------------------------- */
+
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  height: 417px;
+}
+
+.f-navi,
+.f-navii,
+.f-naviii {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.f-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.f-navi {
+  list-style-type: none;
+  padding: 150px;
+}
+
+.f-navi li {
+  margin-bottom: -50px;
+}
+
+.f-navii li {
+  margin-bottom: -50px;
+
+}
+
+.f-navi span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.f-navi a,
+li {
+  text-decoration: none;
+  color: black;
+}
+
+.contact li {
+  margin: 0px;
+}
+
+.social li {
+  margin: 0px;
+}
+
+.social span {
+  white-space: nowrap;
+}
+
+#footer-img {
+  width: 700px;
+  height: 200px;
+  margin-bottom: 20px;
+  padding-right: 550px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 0;
+  
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    
+  }
+
+  #footer-img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -70px;
+  }
+
+  .f-navi,
+  .f-navii,
+  .f-naviii {
+    margin-bottom: -200px; /* Ajuster la marge entre les sections */
+    margin-right: 0;
+    margin-left: 0;
+  }
+
 }
