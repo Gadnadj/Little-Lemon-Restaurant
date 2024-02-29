@@ -1,8 +1,12 @@
+import React from 'react';
+import littleimage from './images/Little-Lemon.png';
+
 function Nav() {
   return (
     <nav>
-      <ul>
-        <li>
+      <img src={littleimage} alt='Little Lemon'></img>
+      <ul id='navi'>
+        <li id='navii'>
           <a href='/'>Home</a>
           <a href='/about'>About</a>
           <a href='/menu'>Menu</a>
