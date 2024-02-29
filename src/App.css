@@ -252,7 +252,6 @@ li {
 
 .cards {
   display: flex;
-  justify-content: space-between;
   padding-bottom: 1000px;
   padding-top: 100px;
 }
@@ -261,16 +260,36 @@ li {
   width: 273px; /* Ajustez la largeur des cartes selon vos besoins */
   border: 1px solid #ddd; /* Ajoutez une bordure */
   border-radius: 8px; /* Ajoutez une bordure arrondie */
-  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1); /* Ajoutez une ombre */
+  box-shadow: 5px 10px 20px #ccc;
   background-color: #f2efef;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Karla', sans-serif;
 }
 
 .card-title {
-  color:black;
+  color: black;
   font-family: 'Markazi Text', serif;
   font-size: 35px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
 }
 
+.card-text {
+  display: block;
+  font-family: 'Karla', sans-serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-style: italic;
+  font-size: 16px;
+  padding: 1em;
+
+}
 
 .cards .card img {
   width: 273px;
