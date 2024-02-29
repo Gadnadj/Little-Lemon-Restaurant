@@ -5,8 +5,8 @@ function Nav() {
   return (
     <nav>
       <img src={littleimage} alt='Little Lemon'></img>
-      <ul id='navi'>
-        <li id='navii'>
+      <ul className='navi'>
+        <li className='navii'>
           <a href='/'>Home</a>
           <a href='/about'>About</a>
           <a href='/menu'>Menu</a>
