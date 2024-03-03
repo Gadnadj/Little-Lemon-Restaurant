@@ -115,12 +115,16 @@ nav img {
   background-color: #b700ff;
 }
 
+.link {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1301px) {
   @media screen and (max-width: 1301px) {
-.presentation {
-  padding-left: 0;
-  padding-right: 0;
-}
+    .presentation {
+      padding-left: 0;
+      padding-right: 0;
+    }
 
     .presentation img {
       display: none;
@@ -470,7 +474,6 @@ nav img {
 }
 
 /* --------------------------------------------------- */
-
 
 /* Footer Section */
 footer {

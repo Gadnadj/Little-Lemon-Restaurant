@@ -10,9 +10,9 @@ function Nav() {
         <li className='navii'>
           <a href='/'>Home</a>
           <Link to='/about'>About</Link>
-          <a href='/menu'>Menu</a>
-          <a href='/reservation'>Reservation</a>
-          <a href='/order'>Order Online</a>
+          <Link to='/menu'>Menu</Link>
+          <Link to='/reservation'>reservation</Link>
+          <Link to='/order'>Order</Link>
           <a href='/login'>Login</a>
         </li>
       </ul>
