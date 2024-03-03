@@ -121,10 +121,10 @@ nav img {
 
 @media screen and (max-width: 1301px) {
   @media screen and (max-width: 1301px) {
-    .presentation {
-      padding-left: 0;
-      padding-right: 0;
-    }
+.presentation {
+  padding-left: 0;
+  padding-right: 0;
+}
 
     .presentation img {
       display: none;
@@ -408,7 +408,7 @@ nav img {
   color: black;
   font-family: 'Karla', serif;
   font-size: 22px;
-  width: auto;
+  width: 370px;
 }
 
 .right-side {
@@ -475,6 +475,7 @@ nav img {
 
 /* --------------------------------------------------- */
 
+
 /* Footer Section */
 footer {
   display: flex;
@@ -539,4 +540,11 @@ li {
   .f-naviii {
     margin-bottom: 20px;
   }
+}
+
+
+.form {
+  display: grid;
+  max-width: 200px;
+  gap: 20px;
 }
