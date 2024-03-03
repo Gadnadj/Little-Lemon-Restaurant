@@ -1,5 +1,6 @@
 import React from 'react';
 import littleimage from '../images/Little-Lemon.png';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
@@ -8,7 +9,7 @@ function Nav() {
       <ul className='navi'>
         <li className='navii'>
           <a href='/'>Home</a>
-          <a href='/about'>About</a>
+          <Link to='/about'>About</Link>
           <a href='/menu'>Menu</a>
           <a href='/reservation'>Reservation</a>
           <a href='/order'>Order Online</a>
