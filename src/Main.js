@@ -8,7 +8,7 @@ import george from './images/george.jpeg';
 import margot from './images/margot.jpeg';
 import stars from './images/5stars.jpeg';
 import mario from './images/Mario.jpg';
-import restaurant2 from './images/restaurant.jpg'
+import restaurant2 from './images/restaurant.jpg';
 
 function Main() {
   return (

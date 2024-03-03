@@ -1,5 +1,5 @@
 import React from 'react';
-import littleimage from './images/Little-Lemon.png';
+import littleimage from '../images/Little-Lemon.png';
 
 function Nav() {
   return (
